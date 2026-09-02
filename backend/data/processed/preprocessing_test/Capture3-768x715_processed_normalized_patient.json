@@ -1,0 +1,186 @@
+{
+  "summary": "این گزارش آزمایشگاهی نتایج آزمایش‌های خون و ادرار شما را نشان می‌دهد. بیشتر نتایج آزمایش‌های خون و بیوشیمی شما در محدوده طبیعی گزارش شده توسط آزمایشگاه قرار دارند. یک مورد، گلبول‌های سفید (W.B.C.) در آزمایش ادرار، به صورت «متوسط» گزارش شده است.",
+  "results": [
+    {
+      "test_name": "Fasting Blood Glucose",
+      "result": "85",
+      "unit": "mg/dL",
+      "reference_range": "70 - 99 mg/dL",
+      "status": "within_range",
+      "explanation": "این آزمایش میزان قند خون شما را بعد از ناشتا بودن اندازه‌گیری می‌کند. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "Triglycerides",
+      "result": "83",
+      "unit": "mg/dL",
+      "reference_range": "50 - 200 mg/dL",
+      "status": "within_range",
+      "explanation": "تری‌گلیسیرید نوعی چربی در خون است. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "Cholesterol",
+      "result": "127",
+      "unit": "mg/dL",
+      "reference_range": "50 - 240 mg/dL",
+      "status": "within_range",
+      "explanation": "کلسترول نوعی چربی است که در خون شما یافت می‌شود. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "Urea",
+      "result": "37",
+      "unit": "mg/dL",
+      "reference_range": "10 - 50 mg/dL",
+      "status": "within_range",
+      "explanation": "اوره ماده‌ای است که کلیه‌ها آن را از خون فیلتر می‌کنند. این آزمایش به بررسی عملکرد کلیه‌ها کمک می‌کند. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "BUN",
+      "result": "14.8",
+      "unit": "mg/dL",
+      "reference_range": "3 - 23 mg/dL",
+      "status": "within_range",
+      "explanation": "BUN (نیتروژن اوره خون) نیز مانند اوره، به بررسی عملکرد کلیه‌ها کمک می‌کند. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "Creatinine",
+      "result": "1",
+      "unit": "mg/dL",
+      "reference_range": "0.4 - 1.4 mg/dL",
+      "status": "within_range",
+      "explanation": "کراتینین ماده‌ای است که در خون اندازه‌گیری می‌شود و می‌تواند اطلاعاتی در مورد نحوه کار کلیه‌ها ارائه دهد. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "HDL Chole",
+      "result": "40",
+      "unit": "mg/dL",
+      "reference_range": ">30",
+      "status": "within_range",
+      "explanation": "HDL کلسترول خوب نامیده می‌شود و به حذف کلسترول اضافی از بدن کمک می‌کند. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "LDL Chole",
+      "result": "70",
+      "unit": "mg/dL",
+      "reference_range": "60 - 160 mg/dL",
+      "status": "within_range",
+      "explanation": "LDL کلسترول بد نامیده می‌شود و مقادیر بالای آن می‌تواند برای سلامتی مضر باشد. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "VLDL",
+      "result": "17",
+      "unit": "mg/dL",
+      "reference_range": "5 - 50 mg/dL",
+      "status": "within_range",
+      "explanation": "VLDL نوع دیگری از چربی در خون است. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "W.B.C.",
+      "result": "7.91",
+      "unit": "10*3/μL",
+      "reference_range": "4 - 9.8 10*3/μL",
+      "status": "within_range",
+      "explanation": "گلبول‌های سفید بخشی از سیستم ایمنی بدن شما هستند و به مبارزه با عفونت‌ها کمک می‌کنند. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "R.B.C.",
+      "result": "4.35",
+      "unit": "10*6/μL",
+      "reference_range": "4 - 5.5 10*6/μL",
+      "status": "within_range",
+      "explanation": "گلبول‌های قرمز اکسیژن را در بدن حمل می‌کنند. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "HGB",
+      "result": "12.9",
+      "unit": "g/dL",
+      "reference_range": "12 - 15 g/dL",
+      "status": "within_range",
+      "explanation": "هموگلوبین پروتئینی در گلبول‌های قرمز است که اکسیژن را حمل می‌کند. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "HCT",
+      "result": "38.9",
+      "unit": "%",
+      "reference_range": "36 - 46 %",
+      "status": "within_range",
+      "explanation": "هماتوکریت درصد گلبول‌های قرمز در خون شما را نشان می‌دهد. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "M.C.V.",
+      "result": "89.4",
+      "unit": "fL",
+      "reference_range": "80 - 96 fL",
+      "status": "within_range",
+      "explanation": "MCV میانگین اندازه گلبول‌های قرمز شما را نشان می‌دهد. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "M.C.H.",
+      "result": "29.7",
+      "unit": "pg",
+      "reference_range": "27 - 35 pg",
+      "status": "within_range",
+      "explanation": "MCH میانگین مقدار هموگلوبین در هر گلبول قرمز را نشان می‌دهد. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "M.C.H.C.",
+      "result": "33.2",
+      "unit": "g/dL",
+      "reference_range": "31 - 37 g/dL",
+      "status": "within_range",
+      "explanation": "MCHC میانگین غلظت هموگلوبین در گلبول‌های قرمز شما را نشان می‌دهد. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "PLATELETS",
+      "result": "203",
+      "unit": "10*3/μL",
+      "reference_range": "140 - 440 10*3/μL",
+      "status": "within_range",
+      "explanation": "پلاکت‌ها سلول‌های کوچکی در خون هستند که به لخته شدن خون و جلوگیری از خونریزی کمک می‌کنند. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "RDW-CV",
+      "result": "12.8",
+      "unit": "%",
+      "reference_range": "10 - 14.6 %",
+      "status": "within_range",
+      "explanation": "RDW-CV به بررسی تنوع در اندازه گلبول‌های قرمز شما کمک می‌کند. نتیجه شما در محدوده طبیعی قرار دارد.",
+      "is_clinically_poblematic": false
+    },
+    {
+      "test_name": "W.B.C.",
+      "result": "Moderate",
+      "unit": null,
+      "reference_range": null,
+      "status": "qualitative",
+      "explanation": "این آزمایش وجود گلبول‌های سفید را در ادرار شما بررسی می‌کند. نتیجه «متوسط» گزارش شده است. این نتیجه کیفی است و محدوده مرجع عددی ندارد.",
+      "is_clinically_poblematic": true
+    }
+  ],
+  "important_points": [
+    "گلبول‌های سفید (W.B.C.) در آزمایش ادرار شما به صورت «متوسط» گزارش شده است. این یک نتیجه کیفی است و ممکن است نیاز به بررسی بیشتر داشته باشد."
+  ],
+  "questions_for_doctor": [
+    "نتیجه «متوسط» گلبول‌های سفید در ادرار به چه معناست؟",
+    "آیا برای این نتیجه نیاز به آزمایش‌های تکمیلی یا درمان خاصی وجود دارد؟"
+  ],
+  "safety_note": "این گزارش آزمایشگاهی باید همراه با علائم، سابقه پزشکی و معاینه بالینی شما توسط پزشک تفسیر شود. این اطلاعات به تنهایی برای تشخیص یا درمان کافی نیستند.",
+  "dietry_paln": "",
+  "pyhsical_exccersice_plan": ""
+}

@@ -52,3 +52,4 @@ backend/htmlcov/
 frontend/dist/
 frontend/build/
 frontend/.next/
+api.txt
