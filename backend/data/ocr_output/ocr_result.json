@@ -1,0 +1,1534 @@
+{
+    "blocks": [
+        {
+            "id": 0,
+            "text": "Opposite Of Hoseynieh Azam",
+            "confidence": 0.9792103017811122,
+            "bbox": {
+                "x_min": 38,
+                "y_min": 18,
+                "x_max": 232,
+                "y_max": 42
+            },
+            "center": {
+                "x": 135,
+                "y": 30
+            }
+        },
+        {
+            "id": 1,
+            "text": "Imam St",
+            "confidence": 0.9944707382991902,
+            "bbox": {
+                "x_min": 237,
+                "y_min": 21,
+                "x_max": 295,
+                "y_max": 39
+            },
+            "center": {
+                "x": 266,
+                "y": 30
+            }
+        },
+        {
+            "id": 2,
+            "text": "Gerash",
+            "confidence": 0.897719344485014,
+            "bbox": {
+                "x_min": 305,
+                "y_min": 21,
+                "x_max": 355,
+                "y_max": 39
+            },
+            "center": {
+                "x": 330,
+                "y": 30
+            }
+        },
+        {
+            "id": 3,
+            "text": "4jj",
+            "confidence": 0.10694417768891473,
+            "bbox": {
+                "x_min": 469,
+                "y_min": 23,
+                "x_max": 557,
+                "y_max": 39
+            },
+            "center": {
+                "x": 513,
+                "y": 31
+            }
+        },
+        {
+            "id": 4,
+            "text": "ALlayy",
+            "confidence": 0.22652830718663622,
+            "bbox": {
+                "x_min": 565,
+                "y_min": 19,
+                "x_max": 629,
+                "y_max": 39
+            },
+            "center": {
+                "x": 597,
+                "y": 29
+            }
+        },
+        {
+            "id": 5,
+            "text": "4u",
+            "confidence": 0.3244400911710792,
+            "bbox": {
+                "x_min": 639,
+                "y_min": 21,
+                "x_max": 679,
+                "y_max": 39
+            },
+            "center": {
+                "x": 659,
+                "y": 30
+            }
+        },
+        {
+            "id": 6,
+            "text": "Tel: 071",
+            "confidence": 0.9990765903211114,
+            "bbox": {
+                "x_min": 75,
+                "y_min": 41,
+                "x_max": 125,
+                "y_max": 57
+            },
+            "center": {
+                "x": 100,
+                "y": 49
+            }
+        },
+        {
+            "id": 7,
+            "text": "52443357 FAX: 071",
+            "confidence": 0.9928930171977127,
+            "bbox": {
+                "x_min": 133,
+                "y_min": 41,
+                "x_max": 249,
+                "y_max": 57
+            },
+            "center": {
+                "x": 191,
+                "y": 49
+            }
+        },
+        {
+            "id": 8,
+            "text": "52442434",
+            "confidence": 0.9985844846938972,
+            "bbox": {
+                "x_min": 257,
+                "y_min": 41,
+                "x_max": 317,
+                "y_max": 57
+            },
+            "center": {
+                "x": 287,
+                "y": 49
+            }
+        },
+        {
+            "id": 9,
+            "text": "{Fjv",
+            "confidence": 0.047221001237630844,
+            "bbox": {
+                "x_min": 572,
+                "y_min": 42,
+                "x_max": 609,
+                "y_max": 56
+            },
+            "center": {
+                "x": 590,
+                "y": 49
+            }
+        },
+        {
+            "id": 10,
+            "text": "3",
+            "confidence": 0.247500647928228,
+            "bbox": {
+                "x_min": 615,
+                "y_min": 43,
+                "x_max": 639,
+                "y_max": 59
+            },
+            "center": {
+                "x": 627,
+                "y": 51
+            }
+        },
+        {
+            "id": 11,
+            "text": "5}",
+            "confidence": 0.13102319616061717,
+            "bbox": {
+                "x_min": 285,
+                "y_min": 69,
+                "x_max": 319,
+                "y_max": 85
+            },
+            "center": {
+                "x": 302,
+                "y": 77
+            }
+        },
+        {
+            "id": 12,
+            "text": "1396/03/02",
+            "confidence": 0.997493717181858,
+            "bbox": {
+                "x_min": 333,
+                "y_min": 67,
+                "x_max": 399,
+                "y_max": 85
+            },
+            "center": {
+                "x": 366,
+                "y": 76
+            }
+        },
+        {
+            "id": 13,
+            "text": "JAu",
+            "confidence": 0.12741907751633413,
+            "bbox": {
+                "x_min": 405,
+                "y_min": 69,
+                "x_max": 465,
+                "y_max": 85
+            },
+            "center": {
+                "x": 435,
+                "y": 77
+            }
+        },
+        {
+            "id": 14,
+            "text": "03-200 J*",
+            "confidence": 0.19814614318714785,
+            "bbox": {
+                "x_min": 593,
+                "y_min": 67,
+                "x_max": 711,
+                "y_max": 87
+            },
+            "center": {
+                "x": 652,
+                "y": 77
+            }
+        },
+        {
+            "id": 15,
+            "text": "3",
+            "confidence": 0.13603286148594762,
+            "bbox": {
+                "x_min": 353,
+                "y_min": 89,
+                "x_max": 375,
+                "y_max": 103
+            },
+            "center": {
+                "x": 364,
+                "y": 96
+            }
+        },
+        {
+            "id": 16,
+            "text": "J_K4f",
+            "confidence": 0.06794027897014429,
+            "bbox": {
+                "x_min": 657,
+                "y_min": 91,
+                "x_max": 731,
+                "y_max": 105
+            },
+            "center": {
+                "x": 694,
+                "y": 98
+            }
+        },
+        {
+            "id": 17,
+            "text": "Blod_Btochamistry",
+            "confidence": 0.1315804049759483,
+            "bbox": {
+                "x_min": 32,
+                "y_min": 138,
+                "x_max": 168,
+                "y_max": 166
+            },
+            "center": {
+                "x": 100,
+                "y": 152
+            }
+        },
+        {
+            "id": 18,
+            "text": "Test",
+            "confidence": 0.6981807351112366,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 169,
+                "x_max": 53,
+                "y_max": 183
+            },
+            "center": {
+                "x": 40,
+                "y": 176
+            }
+        },
+        {
+            "id": 19,
+            "text": "Result",
+            "confidence": 0.9546248010983379,
+            "bbox": {
+                "x_min": 239,
+                "y_min": 169,
+                "x_max": 277,
+                "y_max": 183
+            },
+            "center": {
+                "x": 258,
+                "y": 176
+            }
+        },
+        {
+            "id": 20,
+            "text": "Unii",
+            "confidence": 0.2549762725830078,
+            "bbox": {
+                "x_min": 339,
+                "y_min": 169,
+                "x_max": 365,
+                "y_max": 181
+            },
+            "center": {
+                "x": 352,
+                "y": 175
+            }
+        },
+        {
+            "id": 21,
+            "text": "Blood Glucose( @)",
+            "confidence": 0.27512398135274757,
+            "bbox": {
+                "x_min": 75,
+                "y_min": 185,
+                "x_max": 193,
+                "y_max": 203
+            },
+            "center": {
+                "x": 134,
+                "y": 194
+            }
+        },
+        {
+            "id": 22,
+            "text": "mg dL",
+            "confidence": 0.9774012954743193,
+            "bbox": {
+                "x_min": 341,
+                "y_min": 187,
+                "x_max": 383,
+                "y_max": 205
+            },
+            "center": {
+                "x": 362,
+                "y": 196
+            }
+        },
+        {
+            "id": 23,
+            "text": "Triglycerides( *A)",
+            "confidence": 0.2128360029417323,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 205,
+                "x_max": 149,
+                "y_max": 223
+            },
+            "center": {
+                "x": 88,
+                "y": 214
+            }
+        },
+        {
+            "id": 24,
+            "text": "50 - 200",
+            "confidence": 0.7807784316717166,
+            "bbox": {
+                "x_min": 435,
+                "y_min": 205,
+                "x_max": 489,
+                "y_max": 221
+            },
+            "center": {
+                "x": 462,
+                "y": 213
+            }
+        },
+        {
+            "id": 25,
+            "text": "Cholesterol(d, AK 4)",
+            "confidence": 0.19349855210493233,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 223,
+                "x_max": 185,
+                "y_max": 241
+            },
+            "center": {
+                "x": 106,
+                "y": 232
+            }
+        },
+        {
+            "id": 26,
+            "text": "127",
+            "confidence": 0.9997915992488784,
+            "bbox": {
+                "x_min": 241,
+                "y_min": 223,
+                "x_max": 265,
+                "y_max": 239
+            },
+            "center": {
+                "x": 253,
+                "y": 231
+            }
+        },
+        {
+            "id": 27,
+            "text": "50 - 240",
+            "confidence": 0.8485970881201592,
+            "bbox": {
+                "x_min": 435,
+                "y_min": 223,
+                "x_max": 489,
+                "y_max": 239
+            },
+            "center": {
+                "x": 462,
+                "y": 231
+            }
+        },
+        {
+            "id": 28,
+            "text": "Ureal-_N)",
+            "confidence": 0.11246326523537366,
+            "bbox": {
+                "x_min": 26,
+                "y_min": 240,
+                "x_max": 91,
+                "y_max": 259
+            },
+            "center": {
+                "x": 58,
+                "y": 249
+            }
+        },
+        {
+            "id": 29,
+            "text": "mg dL",
+            "confidence": 0.6007708661645675,
+            "bbox": {
+                "x_min": 339,
+                "y_min": 239,
+                "x_max": 383,
+                "y_max": 259
+            },
+            "center": {
+                "x": 361,
+                "y": 249
+            }
+        },
+        {
+            "id": 30,
+            "text": "10 - 50",
+            "confidence": 0.879955301206112,
+            "bbox": {
+                "x_min": 435,
+                "y_min": 241,
+                "x_max": 483,
+                "y_max": 257
+            },
+            "center": {
+                "x": 459,
+                "y": 249
+            }
+        },
+        {
+            "id": 31,
+            "text": "BUN",
+            "confidence": 0.9962430736957811,
+            "bbox": {
+                "x_min": 25,
+                "y_min": 259,
+                "x_max": 61,
+                "y_max": 275
+            },
+            "center": {
+                "x": 43,
+                "y": 267
+            }
+        },
+        {
+            "id": 32,
+            "text": "14.8",
+            "confidence": 0.9214620165252796,
+            "bbox": {
+                "x_min": 241,
+                "y_min": 261,
+                "x_max": 269,
+                "y_max": 275
+            },
+            "center": {
+                "x": 255,
+                "y": 268
+            }
+        },
+        {
+            "id": 33,
+            "text": "mg dL",
+            "confidence": 0.8869911596401919,
+            "bbox": {
+                "x_min": 339,
+                "y_min": 259,
+                "x_max": 381,
+                "y_max": 277
+            },
+            "center": {
+                "x": 360,
+                "y": 268
+            }
+        },
+        {
+            "id": 34,
+            "text": "3 - 23",
+            "confidence": 0.9579436600304349,
+            "bbox": {
+                "x_min": 433,
+                "y_min": 259,
+                "x_max": 471,
+                "y_max": 275
+            },
+            "center": {
+                "x": 452,
+                "y": 267
+            }
+        },
+        {
+            "id": 35,
+            "text": "Creatinine(31S)",
+            "confidence": 0.44561962779847636,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 277,
+                "x_max": 139,
+                "y_max": 295
+            },
+            "center": {
+                "x": 83,
+                "y": 286
+            }
+        },
+        {
+            "id": 36,
+            "text": "mg dL",
+            "confidence": 0.7564834469313454,
+            "bbox": {
+                "x_min": 339,
+                "y_min": 279,
+                "x_max": 381,
+                "y_max": 295
+            },
+            "center": {
+                "x": 360,
+                "y": 287
+            }
+        },
+        {
+            "id": 37,
+            "text": "04-14",
+            "confidence": 0.9766310203781814,
+            "bbox": {
+                "x_min": 435,
+                "y_min": 277,
+                "x_max": 489,
+                "y_max": 293
+            },
+            "center": {
+                "x": 462,
+                "y": 285
+            }
+        },
+        {
+            "id": 38,
+            "text": "HDL Chole",
+            "confidence": 0.9996725679057115,
+            "bbox": {
+                "x_min": 25,
+                "y_min": 294,
+                "x_max": 102,
+                "y_max": 314
+            },
+            "center": {
+                "x": 63,
+                "y": 304
+            }
+        },
+        {
+            "id": 39,
+            "text": ">30",
+            "confidence": 0.5232860611584217,
+            "bbox": {
+                "x_min": 435,
+                "y_min": 295,
+                "x_max": 463,
+                "y_max": 311
+            },
+            "center": {
+                "x": 449,
+                "y": 303
+            }
+        },
+        {
+            "id": 40,
+            "text": "LDL Chole",
+            "confidence": 0.9971188713913535,
+            "bbox": {
+                "x_min": 25,
+                "y_min": 313,
+                "x_max": 95,
+                "y_max": 329
+            },
+            "center": {
+                "x": 60,
+                "y": 321
+            }
+        },
+        {
+            "id": 41,
+            "text": "60 - 160",
+            "confidence": 0.9875295140757262,
+            "bbox": {
+                "x_min": 435,
+                "y_min": 313,
+                "x_max": 487,
+                "y_max": 329
+            },
+            "center": {
+                "x": 461,
+                "y": 321
+            }
+        },
+        {
+            "id": 42,
+            "text": "ILDL",
+            "confidence": 0.5359148979187012,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 331,
+                "x_max": 67,
+                "y_max": 347
+            },
+            "center": {
+                "x": 47,
+                "y": 339
+            }
+        },
+        {
+            "id": 43,
+            "text": "mg dL",
+            "confidence": 0.5207941095268441,
+            "bbox": {
+                "x_min": 339,
+                "y_min": 331,
+                "x_max": 381,
+                "y_max": 349
+            },
+            "center": {
+                "x": 360,
+                "y": 340
+            }
+        },
+        {
+            "id": 44,
+            "text": "5 - 50",
+            "confidence": 0.7661030609569227,
+            "bbox": {
+                "x_min": 435,
+                "y_min": 331,
+                "x_max": 473,
+                "y_max": 347
+            },
+            "center": {
+                "x": 454,
+                "y": 339
+            }
+        },
+        {
+            "id": 45,
+            "text": "O",
+            "confidence": 0.07787257421318916,
+            "bbox": {
+                "x_min": 511,
+                "y_min": 351,
+                "x_max": 535,
+                "y_max": 363
+            },
+            "center": {
+                "x": 523,
+                "y": 357
+            }
+        },
+        {
+            "id": 46,
+            "text": "sbl",
+            "confidence": 0.04408877931411403,
+            "bbox": {
+                "x_min": 532,
+                "y_min": 348,
+                "x_max": 581,
+                "y_max": 366
+            },
+            "center": {
+                "x": 556,
+                "y": 357
+            }
+        },
+        {
+            "id": 47,
+            "text": "sil",
+            "confidence": 0.33195554776779646,
+            "bbox": {
+                "x_min": 639,
+                "y_min": 349,
+                "x_max": 675,
+                "y_max": 363
+            },
+            "center": {
+                "x": 657,
+                "y": 356
+            }
+        },
+        {
+            "id": 48,
+            "text": "Detartntont",
+            "confidence": 0.12536201435342587,
+            "bbox": {
+                "x_min": 115,
+                "y_min": 377,
+                "x_max": 197,
+                "y_max": 397
+            },
+            "center": {
+                "x": 156,
+                "y": 387
+            }
+        },
+        {
+            "id": 49,
+            "text": "Tesi",
+            "confidence": 0.3629407584667206,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 403,
+                "x_max": 53,
+                "y_max": 417
+            },
+            "center": {
+                "x": 40,
+                "y": 410
+            }
+        },
+        {
+            "id": 50,
+            "text": "Resull",
+            "confidence": 0.36070605563948777,
+            "bbox": {
+                "x_min": 193,
+                "y_min": 403,
+                "x_max": 229,
+                "y_max": 417
+            },
+            "center": {
+                "x": 211,
+                "y": 410
+            }
+        },
+        {
+            "id": 51,
+            "text": "Unit",
+            "confidence": 0.4516977369785309,
+            "bbox": {
+                "x_min": 293,
+                "y_min": 403,
+                "x_max": 319,
+                "y_max": 417
+            },
+            "center": {
+                "x": 306,
+                "y": 410
+            }
+        },
+        {
+            "id": 52,
+            "text": "Differental",
+            "confidence": 0.47767384737831214,
+            "bbox": {
+                "x_min": 547,
+                "y_min": 403,
+                "x_max": 607,
+                "y_max": 417
+            },
+            "center": {
+                "x": 577,
+                "y": 410
+            }
+        },
+        {
+            "id": 53,
+            "text": "CBC",
+            "confidence": 0.9996577385599572,
+            "bbox": {
+                "x_min": 25,
+                "y_min": 417,
+                "x_max": 69,
+                "y_max": 435
+            },
+            "center": {
+                "x": 47,
+                "y": 426
+            }
+        },
+        {
+            "id": 54,
+            "text": "WBC (~U,)",
+            "confidence": 0.20317599893347843,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 437,
+                "x_max": 131,
+                "y_max": 453
+            },
+            "center": {
+                "x": 79,
+                "y": 445
+            }
+        },
+        {
+            "id": 55,
+            "text": "7.91",
+            "confidence": 0.7251419510105999,
+            "bbox": {
+                "x_min": 193,
+                "y_min": 439,
+                "x_max": 221,
+                "y_max": 453
+            },
+            "center": {
+                "x": 207,
+                "y": 446
+            }
+        },
+        {
+            "id": 56,
+            "text": "10*3pL",
+            "confidence": 0.6036877781916993,
+            "bbox": {
+                "x_min": 294,
+                "y_min": 435,
+                "x_max": 347,
+                "y_max": 456
+            },
+            "center": {
+                "x": 320,
+                "y": 445
+            }
+        },
+        {
+            "id": 57,
+            "text": "4 -98",
+            "confidence": 0.9880654967117513,
+            "bbox": {
+                "x_min": 395,
+                "y_min": 439,
+                "x_max": 437,
+                "y_max": 453
+            },
+            "center": {
+                "x": 416,
+                "y": 446
+            }
+        },
+        {
+            "id": 58,
+            "text": "RBC (jJA)",
+            "confidence": 0.27305976254772135,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 455,
+                "x_max": 131,
+                "y_max": 471
+            },
+            "center": {
+                "x": 79,
+                "y": 463
+            }
+        },
+        {
+            "id": 59,
+            "text": "435",
+            "confidence": 0.7184379696846008,
+            "bbox": {
+                "x_min": 193,
+                "y_min": 455,
+                "x_max": 221,
+                "y_max": 471
+            },
+            "center": {
+                "x": 207,
+                "y": 463
+            }
+        },
+        {
+            "id": 60,
+            "text": "10*6 AL",
+            "confidence": 0.3704711975632847,
+            "bbox": {
+                "x_min": 293,
+                "y_min": 455,
+                "x_max": 347,
+                "y_max": 471
+            },
+            "center": {
+                "x": 320,
+                "y": 463
+            }
+        },
+        {
+            "id": 61,
+            "text": "4-55",
+            "confidence": 0.28541525925985206,
+            "bbox": {
+                "x_min": 395,
+                "y_min": 455,
+                "x_max": 437,
+                "y_max": 471
+            },
+            "center": {
+                "x": 416,
+                "y": 463
+            }
+        },
+        {
+            "id": 62,
+            "text": "HGB (* #)",
+            "confidence": 0.22263986587436377,
+            "bbox": {
+                "x_min": 25,
+                "y_min": 473,
+                "x_max": 131,
+                "y_max": 489
+            },
+            "center": {
+                "x": 78,
+                "y": 481
+            }
+        },
+        {
+            "id": 63,
+            "text": "12.9",
+            "confidence": 0.9846778512001038,
+            "bbox": {
+                "x_min": 193,
+                "y_min": 471,
+                "x_max": 221,
+                "y_max": 487
+            },
+            "center": {
+                "x": 207,
+                "y": 479
+            }
+        },
+        {
+            "id": 64,
+            "text": "12 - 15",
+            "confidence": 0.6001578735564529,
+            "bbox": {
+                "x_min": 395,
+                "y_min": 473,
+                "x_max": 439,
+                "y_max": 487
+            },
+            "center": {
+                "x": 417,
+                "y": 480
+            }
+        },
+        {
+            "id": 65,
+            "text": "HCT",
+            "confidence": 0.9996307602440033,
+            "bbox": {
+                "x_min": 25,
+                "y_min": 489,
+                "x_max": 59,
+                "y_max": 505
+            },
+            "center": {
+                "x": 42,
+                "y": 497
+            }
+        },
+        {
+            "id": 66,
+            "text": "38.9",
+            "confidence": 0.9711143970489502,
+            "bbox": {
+                "x_min": 193,
+                "y_min": 489,
+                "x_max": 221,
+                "y_max": 505
+            },
+            "center": {
+                "x": 207,
+                "y": 497
+            }
+        },
+        {
+            "id": 67,
+            "text": "36 - 46",
+            "confidence": 0.8576119986807514,
+            "bbox": {
+                "x_min": 395,
+                "y_min": 489,
+                "x_max": 441,
+                "y_max": 505
+            },
+            "center": {
+                "x": 418,
+                "y": 497
+            }
+        },
+        {
+            "id": 68,
+            "text": "MC V",
+            "confidence": 0.5639040470123291,
+            "bbox": {
+                "x_min": 25,
+                "y_min": 507,
+                "x_max": 71,
+                "y_max": 521
+            },
+            "center": {
+                "x": 48,
+                "y": 514
+            }
+        },
+        {
+            "id": 69,
+            "text": "80 - 96",
+            "confidence": 0.6841312822144604,
+            "bbox": {
+                "x_min": 395,
+                "y_min": 507,
+                "x_max": 441,
+                "y_max": 521
+            },
+            "center": {
+                "x": 418,
+                "y": 514
+            }
+        },
+        {
+            "id": 70,
+            "text": "MCH",
+            "confidence": 0.9979808638621905,
+            "bbox": {
+                "x_min": 25,
+                "y_min": 525,
+                "x_max": 71,
+                "y_max": 541
+            },
+            "center": {
+                "x": 48,
+                "y": 533
+            }
+        },
+        {
+            "id": 71,
+            "text": "27 - 35",
+            "confidence": 0.9416871878116126,
+            "bbox": {
+                "x_min": 395,
+                "y_min": 525,
+                "x_max": 439,
+                "y_max": 541
+            },
+            "center": {
+                "x": 417,
+                "y": 533
+            }
+        },
+        {
+            "id": 72,
+            "text": "MCHC",
+            "confidence": 0.7330909371376038,
+            "bbox": {
+                "x_min": 25,
+                "y_min": 541,
+                "x_max": 83,
+                "y_max": 557
+            },
+            "center": {
+                "x": 54,
+                "y": 549
+            }
+        },
+        {
+            "id": 73,
+            "text": "33.2",
+            "confidence": 0.9947069132186702,
+            "bbox": {
+                "x_min": 193,
+                "y_min": 543,
+                "x_max": 221,
+                "y_max": 557
+            },
+            "center": {
+                "x": 207,
+                "y": 550
+            }
+        },
+        {
+            "id": 74,
+            "text": "gdL",
+            "confidence": 0.4012710101717861,
+            "bbox": {
+                "x_min": 295,
+                "y_min": 541,
+                "x_max": 323,
+                "y_max": 559
+            },
+            "center": {
+                "x": 309,
+                "y": 550
+            }
+        },
+        {
+            "id": 75,
+            "text": "31 - 37",
+            "confidence": 0.7430325099644273,
+            "bbox": {
+                "x_min": 395,
+                "y_min": 543,
+                "x_max": 439,
+                "y_max": 557
+            },
+            "center": {
+                "x": 417,
+                "y": 550
+            }
+        },
+        {
+            "id": 76,
+            "text": "PLATELETS(-S-)",
+            "confidence": 0.44862067676608164,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 559,
+                "x_max": 147,
+                "y_max": 575
+            },
+            "center": {
+                "x": 87,
+                "y": 567
+            }
+        },
+        {
+            "id": 77,
+            "text": "203",
+            "confidence": 0.991292611333653,
+            "bbox": {
+                "x_min": 193,
+                "y_min": 559,
+                "x_max": 217,
+                "y_max": 575
+            },
+            "center": {
+                "x": 205,
+                "y": 567
+            }
+        },
+        {
+            "id": 78,
+            "text": "10*3 AL",
+            "confidence": 0.6121385049396192,
+            "bbox": {
+                "x_min": 295,
+                "y_min": 559,
+                "x_max": 347,
+                "y_max": 575
+            },
+            "center": {
+                "x": 321,
+                "y": 567
+            }
+        },
+        {
+            "id": 79,
+            "text": "140 - 440",
+            "confidence": 0.7368310798564673,
+            "bbox": {
+                "x_min": 395,
+                "y_min": 559,
+                "x_max": 455,
+                "y_max": 573
+            },
+            "center": {
+                "x": 425,
+                "y": 566
+            }
+        },
+        {
+            "id": 80,
+            "text": "RDW-CV",
+            "confidence": 0.9931142696876918,
+            "bbox": {
+                "x_min": 25,
+                "y_min": 575,
+                "x_max": 87,
+                "y_max": 591
+            },
+            "center": {
+                "x": 56,
+                "y": 583
+            }
+        },
+        {
+            "id": 81,
+            "text": "12.8",
+            "confidence": 0.9958616495132446,
+            "bbox": {
+                "x_min": 193,
+                "y_min": 577,
+                "x_max": 221,
+                "y_max": 591
+            },
+            "center": {
+                "x": 207,
+                "y": 584
+            }
+        },
+        {
+            "id": 82,
+            "text": "10 - 14.6",
+            "confidence": 0.9141696341141285,
+            "bbox": {
+                "x_min": 395,
+                "y_min": 577,
+                "x_max": 451,
+                "y_max": 591
+            },
+            "center": {
+                "x": 423,
+                "y": 584
+            }
+        },
+        {
+            "id": 83,
+            "text": "Blood Group",
+            "confidence": 0.9994711800265584,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 593,
+                "x_max": 111,
+                "y_max": 612
+            },
+            "center": {
+                "x": 69,
+                "y": 602
+            }
+        },
+        {
+            "id": 84,
+            "text": "Rh Factor",
+            "confidence": 0.8941179655436373,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 611,
+                "x_max": 87,
+                "y_max": 627
+            },
+            "center": {
+                "x": 57,
+                "y": 619
+            }
+        },
+        {
+            "id": 85,
+            "text": "Negative",
+            "confidence": 0.9545590648214124,
+            "bbox": {
+                "x_min": 191,
+                "y_min": 613,
+                "x_max": 249,
+                "y_max": 629
+            },
+            "center": {
+                "x": 220,
+                "y": 621
+            }
+        },
+        {
+            "id": 86,
+            "text": "CBC done With",
+            "confidence": 0.722000375877052,
+            "bbox": {
+                "x_min": 265,
+                "y_min": 631,
+                "x_max": 363,
+                "y_max": 645
+            },
+            "center": {
+                "x": 314,
+                "y": 638
+            }
+        },
+        {
+            "id": 87,
+            "text": "SESAEX XS-8001\" FLOURSCENCE FLOWCITOMETR",
+            "confidence": 0.2717741344295166,
+            "bbox": {
+                "x_min": 369,
+                "y_min": 631,
+                "x_max": 721,
+                "y_max": 645
+            },
+            "center": {
+                "x": 545,
+                "y": 638
+            }
+        },
+        {
+            "id": 88,
+            "text": "Uriorschut",
+            "confidence": 0.015228317008263687,
+            "bbox": {
+                "x_min": 28,
+                "y_min": 654,
+                "x_max": 144,
+                "y_max": 679
+            },
+            "center": {
+                "x": 86,
+                "y": 666
+            }
+        },
+        {
+            "id": 89,
+            "text": "MacOSCOplc",
+            "confidence": 0.20448152279663406,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 685,
+                "x_max": 95,
+                "y_max": 699
+            },
+            "center": {
+                "x": 61,
+                "y": 692
+            }
+        },
+        {
+            "id": 90,
+            "text": "Mcoscopic",
+            "confidence": 0.9543682819729726,
+            "bbox": {
+                "x_min": 390,
+                "y_min": 682,
+                "x_max": 457,
+                "y_max": 699
+            },
+            "center": {
+                "x": 423,
+                "y": 690
+            }
+        },
+        {
+            "id": 91,
+            "text": "Urine Analvsis",
+            "confidence": 0.6950697099935838,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 701,
+                "x_max": 121,
+                "y_max": 715
+            },
+            "center": {
+                "x": 74,
+                "y": 708
+            }
+        },
+        {
+            "id": 92,
+            "text": "WBC",
+            "confidence": 0.9992011161823346,
+            "bbox": {
+                "x_min": 393,
+                "y_min": 701,
+                "x_max": 435,
+                "y_max": 715
+            },
+            "center": {
+                "x": 414,
+                "y": 708
+            }
+        },
+        {
+            "id": 93,
+            "text": "Modcrate",
+            "confidence": 0.7264210533007559,
+            "bbox": {
+                "x_min": 555,
+                "y_min": 701,
+                "x_max": 615,
+                "y_max": 715
+            },
+            "center": {
+                "x": 585,
+                "y": 708
+            }
+        },
+        {
+            "id": 94,
+            "text": "Dootrent",
+            "confidence": 0.32261701014157973,
+            "bbox": {
+                "x_min": 167,
+                "y_min": 138,
+                "x_max": 253,
+                "y_max": 171
+            },
+            "center": {
+                "x": 210,
+                "y": 155
+            }
+        },
+        {
+            "id": 95,
+            "text": "Fasting",
+            "confidence": 0.9619305457102048,
+            "bbox": {
+                "x_min": 22,
+                "y_min": 182,
+                "x_max": 76,
+                "y_max": 205
+            },
+            "center": {
+                "x": 49,
+                "y": 194
+            }
+        },
+        {
+            "id": 96,
+            "text": "mg dL",
+            "confidence": 0.7104735813318303,
+            "bbox": {
+                "x_min": 338,
+                "y_min": 203,
+                "x_max": 382,
+                "y_max": 224
+            },
+            "center": {
+                "x": 360,
+                "y": 214
+            }
+        },
+        {
+            "id": 97,
+            "text": "mgdL",
+            "confidence": 0.995900571346283,
+            "bbox": {
+                "x_min": 338,
+                "y_min": 221,
+                "x_max": 384,
+                "y_max": 242
+            },
+            "center": {
+                "x": 361,
+                "y": 232
+            }
+        },
+        {
+            "id": 98,
+            "text": "mg dL",
+            "confidence": 0.8960183722960362,
+            "bbox": {
+                "x_min": 340,
+                "y_min": 295,
+                "x_max": 381,
+                "y_max": 313
+            },
+            "center": {
+                "x": 361,
+                "y": 304
+            }
+        },
+        {
+            "id": 99,
+            "text": "mgdL",
+            "confidence": 0.6632797718048096,
+            "bbox": {
+                "x_min": 336,
+                "y_min": 311,
+                "x_max": 380,
+                "y_max": 332
+            },
+            "center": {
+                "x": 358,
+                "y": 322
+            }
+        },
+        {
+            "id": 100,
+            "text": "Ffoaatolty",
+            "confidence": 0.11152351531112992,
+            "bbox": {
+                "x_min": 27,
+                "y_min": 370,
+                "x_max": 113,
+                "y_max": 404
+            },
+            "center": {
+                "x": 70,
+                "y": 387
+            }
+        },
+        {
+            "id": 101,
+            "text": "Dopabnent",
+            "confidence": 0.02822923440952553,
+            "bbox": {
+                "x_min": 140,
+                "y_min": 654,
+                "x_max": 224,
+                "y_max": 686
+            },
+            "center": {
+                "x": 182,
+                "y": 670
+            }
+        }
+    ]
+}

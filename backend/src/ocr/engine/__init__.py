@@ -1,5 +1,5 @@
-from .paddleocr_1 import PaddleOCREngine
+from .easyocr import EasyOCREngine
 
 __all__ = [
-    "PaddleOCREngine",
+    "EasyOCREngine",
 ]

@@ -1,4 +1,4 @@
-from src.ocr.engine import PaddleOCREngine
+from src.ocr.engine import EasyOCREngine
 
 
 IMAGE = "/home/amir-hossein/Documents/Capture3-768x715.jpg"
@@ -8,7 +8,7 @@ def main():
 
     print("Starting OCR test...")
 
-    engine = PaddleOCREngine()
+    engine = EasyOCREngine()
 
     print("Running OCR...")
 
