@@ -53,3 +53,4 @@ frontend/dist/
 frontend/build/
 frontend/.next/
 api.txt
+backend/API_key.txt

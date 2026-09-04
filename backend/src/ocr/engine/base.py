@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 from pathlib import Path
+from typing import Any
 
 
 class OCREngine(ABC):
@@ -8,7 +9,7 @@ class OCREngine(ABC):
     def recognize(
         self,
         image_path: str | Path,
-    ) -> dict:
+    ) -> Any:
         """
         Run OCR on an image.
 
@@ -19,7 +20,7 @@ class OCREngine(ABC):
 
         Returns
         -------
-        dict
-            Raw OCR result.
+        Any
+            Raw OCR result returned by the concrete OCR engine.
         """
-        pass
+        raise NotImplementedError
