@@ -5,9 +5,9 @@ from src.models.database import engine
 
 from src.models import User, Document, ProcessedFile
 
-from src.api.routes import users
-from src.api.routes import documents
-from src.api.routes import preprocessing
+from src.api.routes import user
+from src.api.routes import document
+from src.api.routes import preprocessed
 
 
 Base.metadata.create_all(bind=engine)
@@ -19,9 +19,9 @@ app = FastAPI(
 )
 
 
-app.include_router(users.router)
-app.include_router(documents.router)
-app.include_router(preprocessing.router)
+app.include_router(user.router)
+app.include_router(document.router)
+app.include_router(preprocessed.router)
 
 
 @app.get("/health")

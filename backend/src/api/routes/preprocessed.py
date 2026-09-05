@@ -1,9 +1,11 @@
 from pathlib import Path
-from tempfile import TemporaryDirectory
 
-from fastapi import APIRouter, File, HTTPException, UploadFile
-from fastapi.responses import FileResponse
-from PIL import Image
+from fastapi import APIRouter, Depends, HTTPException
+from sqlalchemy.orm import Session
+
+from src.models.database import get_db
+from src.models.document import Document
+from src.models.processed_file import ProcessedFile
 
 from src.ocr.preprocessing.loader import load_image
 from src.ocr.preprocessing.pdf import pdf_to_images
@@ -16,6 +18,9 @@ router = APIRouter(
 )
 
 
+PROCESSED_DIR = Path("data/processed")
+
+
 ALLOWED_IMAGES = {
     ".jpg",
     ".jpeg",
@@ -26,45 +31,104 @@ ALLOWED_IMAGES = {
     ".webp",
 }
 
-ALLOWED_EXTENSIONS = ALLOWED_IMAGES | {".pdf"}
 
-
-@router.post("/preprocess")
-async def preprocess_document(
-    file: UploadFile = File(...),
+@router.post(
+    "/preprocess/{document_id}",
+)
+def preprocess_document(
+    document_id: int,
+    db: Session = Depends(get_db),
 ):
-    if not file.filename:
+    # -------------------------
+    # Get document
+    # -------------------------
+
+    document = db.get(Document, document_id)
+
+    if document is None:
         raise HTTPException(
-            status_code=400,
-            detail="No filename provided.",
+            status_code=404,
+            detail="Document not found.",
         )
 
-    extension = Path(file.filename).suffix.lower()
+    input_path = Path(document.original_path)
 
-    if extension not in ALLOWED_EXTENSIONS:
+    if not input_path.exists():
         raise HTTPException(
-            status_code=400,
-            detail=f"Unsupported file type: {extension}",
+            status_code=404,
+            detail="Original file not found.",
         )
 
-    with TemporaryDirectory() as temp_dir:
+    # -------------------------
+    # Create output directory
+    # -------------------------
 
-        temp_dir = Path(temp_dir)
+    output_dir = (
+        PROCESSED_DIR /
+        str(document.id)
+    )
 
-        input_path = temp_dir / file.filename
+    output_dir.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
-        content = await file.read()
-        input_path.write_bytes(content)
+    processed_files = []
 
-        output_dir = temp_dir / "processed"
-        output_dir.mkdir()
+    # =====================================================
+    # IMAGE
+    # =====================================================
 
-        # -------------------------
-        # IMAGE
-        # -------------------------
-        if extension in ALLOWED_IMAGES:
+    if input_path.suffix.lower() in ALLOWED_IMAGES:
 
-            image = load_image(input_path)
+        image = load_image(input_path)
+
+        processed = preprocess(
+            image,
+            grayscale=True,
+            scale=1.0,
+            contrast=1.2,
+            apply_denoise=True,
+            denoise_kernel=3,
+        )
+
+        output_path = (
+            output_dir /
+            "page_001.png"
+        )
+
+        processed.save(output_path)
+
+        processed_file = ProcessedFile(
+            document_id=document.id,
+            file_path=str(output_path),
+            page_number=1,
+        )
+
+        db.add(processed_file)
+
+        processed_files.append(
+            processed_file
+        )
+
+    # =====================================================
+    # PDF
+    # =====================================================
+
+    elif input_path.suffix.lower() == ".pdf":
+
+        page_images = pdf_to_images(
+            input_path,
+            output_dir,
+            dpi=300,
+        )
+
+        for page_number, page_path in enumerate(
+            page_images,
+            start=1,
+        ):
+
+            image = load_image(page_path)
 
             processed = preprocess(
                 image,
@@ -75,63 +139,50 @@ async def preprocess_document(
                 denoise_kernel=3,
             )
 
-            output_path = output_dir / "preprocessed.png"
+            output_path = (
+                output_dir /
+                f"page_{page_number:03d}.png"
+            )
 
             processed.save(output_path)
 
-            return FileResponse(
-                path=output_path,
-                media_type="image/png",
-                filename="preprocessed.png",
+            processed_file = ProcessedFile(
+                document_id=document.id,
+                file_path=str(output_path),
+                page_number=page_number,
             )
 
-        # -------------------------
-        # PDF
-        # -------------------------
-        if extension == ".pdf":
+            db.add(processed_file)
 
-            page_images = pdf_to_images(
-                input_path,
-                output_dir,
-                dpi=300,
+            processed_files.append(
+                processed_file
             )
 
-            processed_paths = []
+    else:
 
-            for page_number, page_path in enumerate(
-                page_images,
-                start=1,
-            ):
-                image = load_image(page_path)
+        raise HTTPException(
+            status_code=400,
+            detail="Unsupported document type.",
+        )
 
-                processed = preprocess(
-                    image,
-                    grayscale=True,
-                    scale=1.0,
-                    contrast=1.2,
-                    apply_denoise=True,
-                    denoise_kernel=3,
-                )
+    # -------------------------
+    # Update document
+    # -------------------------
 
-                processed_path = (
-                    output_dir
-                    / f"preprocessed_page_{page_number:03d}.png"
-                )
+    document.status = "preprocessed"
 
-                processed.save(processed_path)
+    db.commit()
 
-                processed_paths.append(processed_path)
-
-            # For now return first page.
-            # Later we will return all pages properly.
-            if not processed_paths:
-                raise HTTPException(
-                    status_code=400,
-                    detail="PDF contains no pages.",
-                )
-
-            return FileResponse(
-                path=processed_paths[0],
-                media_type="image/png",
-                filename="preprocessed_page_001.png",
-            )
+    return {
+        "document_id": document.id,
+        "status": document.status,
+        "pages": len(processed_files),
+        "processed_files": [
+            {
+                "id": item.id,
+                "page_number": item.page_number,
+                "file_path": item.file_path,
+            }
+            for item in processed_files
+        ],
+    }
