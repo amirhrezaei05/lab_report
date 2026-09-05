@@ -8,7 +8,8 @@ from src.models import User, Document, ProcessedFile
 from src.api.routes import user
 from src.api.routes import document
 from src.api.routes import preprocessed
-
+from src.api.routes import ocr
+from src.api.routes import patient_assistant
 
 Base.metadata.create_all(bind=engine)
 
@@ -22,6 +23,8 @@ app = FastAPI(
 app.include_router(user.router)
 app.include_router(document.router)
 app.include_router(preprocessed.router)
+app.include_router(ocr.router)
+app.include_router(patient_assistant.router)
 
 
 @app.get("/health")

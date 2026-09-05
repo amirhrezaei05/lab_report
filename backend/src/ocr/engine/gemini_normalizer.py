@@ -128,41 +128,29 @@ RAW OCR TEXT:
 # ============================================================
 # Gemini Normalization
 # ============================================================
+def normalize(ocr_data: dict, model: str = DEFAULT_MODEL) -> dict:
 
-def normalize(ocr_json_path: str, model: str = DEFAULT_MODEL) -> dict:
-
-    path = Path(ocr_json_path)
-
-    if not path.exists():
-        raise FileNotFoundError(
-            f"JSON file does not exist: {path}"
+    if not isinstance(ocr_data, dict):
+        raise TypeError(
+            "ocr_data must be a dictionary."
         )
-
-    if not path.is_file():
-        raise ValueError(
-            f"Path is not a file: {path}"
-        )
-
-    # --------------------------------------------------------
-    # Read raw OCR JSON
-    # --------------------------------------------------------
-
-    with open(path, "r", encoding="utf-8") as f:
-        ocr_data = json.load(f)
 
     if "text" not in ocr_data:
         raise ValueError(
-            "OCR JSON does not contain a 'text' field."
+            "OCR data does not contain a 'text' field."
         )
 
     ocr_text = ocr_data["text"]
 
-    if not ocr_text.strip():
-        raise ValueError(
-            "OCR JSON contains an empty 'text' field."
+    if not isinstance(ocr_text, str):
+        raise TypeError(
+            "OCR 'text' field must be a string."
         )
 
-    # --------------------------------------------------------
+    if not ocr_text.strip():
+        raise ValueError(
+            "OCR data contains an empty 'text' field."
+        )
     # Build prompt
     # --------------------------------------------------------
 
@@ -293,9 +281,8 @@ def normalize(ocr_json_path: str, model: str = DEFAULT_MODEL) -> dict:
     # --------------------------------------------------------
     # Add processing metadata
     # --------------------------------------------------------
-
     structured_data["_metadata"] = {
-        "source_ocr_file": path.name,
+        "source_ocr_file": ocr_data.get("source_file"),
         "model": model
     }
 
@@ -325,14 +312,13 @@ def main():
         else DEFAULT_MODEL
     )
 
+    with open(json_path, "r", encoding="utf-8") as f:
+        ocr_data = json.load(f)
+
     result = normalize(
-        json_path,
+        ocr_data,
         model
     )
-
-    # --------------------------------------------------------
-    # Output filename
-    # --------------------------------------------------------
 
     output_path = Path(json_path).with_name(
         Path(json_path).stem + "_normalized.json"
@@ -353,7 +339,6 @@ def main():
 
     print("Normalization completed.")
     print(f"JSON saved to: {output_path}")
-
 
 if __name__ == "__main__":
     main()

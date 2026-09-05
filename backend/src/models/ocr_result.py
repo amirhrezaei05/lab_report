@@ -1,15 +1,14 @@
-# src/models/processed_file.py
 
 from datetime import datetime
 
-from sqlalchemy import ForeignKey, String, DateTime
+from sqlalchemy import DateTime, ForeignKey, JSON
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from src.models.base import Base
 
 
-class ProcessedFile(Base):
-    __tablename__ = "processed_files"
+class OCRResult(Base):
+    __tablename__ = "ocr_results"
 
     id: Mapped[int] = mapped_column(
         primary_key=True,
@@ -19,15 +18,12 @@ class ProcessedFile(Base):
     document_id: Mapped[int] = mapped_column(
         ForeignKey("documents.id"),
         nullable=False,
+        index=True,
     )
 
-    file_path: Mapped[str] = mapped_column(
-        String(500),
+    result: Mapped[dict] = mapped_column(
+        JSON,
         nullable=False,
-    )
-
-    page_number: Mapped[int | None] = mapped_column(
-        nullable=True,
     )
 
     created_at: Mapped[datetime] = mapped_column(
@@ -37,11 +33,5 @@ class ProcessedFile(Base):
 
     document = relationship(
         "Document",
-        back_populates="processed_files",
-    )
-    patient_assistant = relationship(
-        "PatientAssistant",
-        back_populates="processed_file",
-        uselist=False,
-        cascade="all, delete-orphan",
+        back_populates="ocr_results",
     )

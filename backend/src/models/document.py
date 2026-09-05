@@ -55,3 +55,12 @@ class Document(Base):
         back_populates="document",
         cascade="all, delete-orphan",
     )
+
+
+
+    ocr_results = relationship(
+        "OCRResult",
+        back_populates="document",
+        cascade="all, delete-orphan",
+    )
+

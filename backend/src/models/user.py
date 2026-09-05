@@ -24,3 +24,8 @@ class User(Base):
         "Document",
         back_populates="user",
     )
+    patient_assistants = relationship(
+        "PatientAssistant",
+        back_populates="user",
+        cascade="all, delete-orphan",
+    )
